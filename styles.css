@@ -46,6 +46,7 @@ body {
 	font-size: 1.125rem;
 	font-weight: 600;
 	background-color: #475aff;
+	border: 2px solid #475aff;
 	color: #fff;
 	text-decoration: none;
 	padding: 13px 25px;
@@ -65,8 +66,15 @@ body {
 	padding: 33px 25px;
 	border: 1px solid rgba(255, 255, 255, 0.24);
 }
+
 .intro-feature p {
+	margin: 0;
 	font-size: 1.0625rem;
+}
+
+.intro-feature h2 {
+	font-size: 1.5rem;
+	margin: 31px 0 3px 0;
 }
 
 .intro-features {
