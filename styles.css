@@ -94,7 +94,7 @@ body {
 	width: 617px;
 	height: 617px;
 	background: #d660ff;
-	opacity: 0.55;
+	opacity: 0.85;
 	border-radius: 50%;
 	filter: blur(150px);
 	position: absolute;
@@ -113,23 +113,28 @@ body {
 	top: -365px;
 	left: -123px;
 }
+
 .page-section {
 	background-color: #fff;
-	padding: 95px 16px;
+	padding: 130px 16px;
 }
+
 .page-section-inner {
 	max-width: 1066px;
 	margin: 0 auto;
 }
+
 .page-section-title {
 	font-size: 5.31rem;
 	margin: 0;
 	line-height: 1;
 }
+
 .pet-filter {
 	color: #9f9f9f;
 	font-size: 1.375rem;
 }
+
 .pet-filter button {
 	background-color: transparent;
 	border: none;
@@ -137,10 +142,39 @@ body {
 	font-size: 1.375rem;
 	color: #9f9f9f;
 }
+
 .site-footer p {
 	text-align: center;
 	color: #a6a6a6;
 	font-size: 0.875rem;
 	margin: 0;
 	padding: 0 0 65px 0;
+}
+
+.list-of-pets {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 34px;
+}
+
+.pet-card {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 165px 1fr;
+	border-radius: 20px;
+	border: 1px solid #f3f3f3;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+}
+
+.pet-card-photo {
+	order: 1;
+	grid-row: 1;
+}
+
+.pet-card-photo img {
+	width: 100%;
+	display: block;
+}
+.pet-description p {
+	padding: 0 130px 0 16px;
 }
