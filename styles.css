@@ -147,7 +147,7 @@ body {
 	max-width: 1066px;
 	margin: 0 auto;
 }
-- .page-section-title {
+.page-section-title {
 	font-size: 4rem;
 	margin: 0;
 	line-height: 1;
@@ -184,7 +184,7 @@ body {
 .pet-card {
 	overflow: hidden;
 	display: grid;
-	grid-template-columns: 165px 1fr;
+	grid-template-columns: 120px 1fr;
 	border-radius: 20px;
 	border: 1px solid #f3f3f3;
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
@@ -234,16 +234,14 @@ body {
 	.pet-filter {
 		font-size: 1.375rem;
 	}
-
 	.pet-filter button {
 		font-size: 1.375rem;
 	}
-
 	.page-section-title {
 		font-size: 5.31rem;
 	}
 	.page-section {
-		padding: 130px 16px;
+		padding: 60px 16px; //130
 	}
 	.intro-buttons {
 		margin-bottom: 70px;
