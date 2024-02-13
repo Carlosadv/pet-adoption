@@ -176,7 +176,7 @@ body {
 
 .list-of-pets {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); //don't need a media query
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); /*Don't need to use a Media Query*/
 	column-gap: 34px;
 	row-gap: 16px;
 }
